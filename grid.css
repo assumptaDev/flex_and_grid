@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(2, 2, 34);
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+}
+main {
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'a a b'
+    'c d d'
+    'c e e'
+     ;
+}
+     main div {
+        padding: 2em;
+        text-align: center;
+     }
+  
+.item-A {
+    background-color:orange;
+    grid-area: a;
+}
+.item-B {
+    background-color: yellow;
+    grid-area: b;
+}
+.item-C {
+    background-color: green;
+    grid-area: c;
+}
+.item-D {
+    background-color: skyblue;
+    grid-area: d;
+}
+.item-E {
+    background-color: skyblue;
+    grid-area: e;
+}

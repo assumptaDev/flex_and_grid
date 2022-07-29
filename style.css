@@ -1,0 +1,105 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+main {
+    font size: 15px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.first {
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+}
+.first h3 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+}
+.first p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+.first button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.second {
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+.second h3 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big shoulders display";
+    font-weight: 700;
+}
+.second p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+.second button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.third {
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+}
+.third h3 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+}
+.third p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+.third button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.first button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+    .second button:hover {
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(184, 100%, 22%);
+        border-radius: 15px;
+        padding: 5px 10px 5px 10px;
+        border-color: hsl(0, 0%, 95%);
+        cursor: pointer;
+    }
+    .third button:hover {
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 15px;
+        padding: 5px 10px 5px 10px;
+        border-color: hsl(0, 0%, 95%);
+        cursor: pointer;
+    }
